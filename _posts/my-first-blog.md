@@ -3,13 +3,13 @@ date: 2015-09-20 01:15:06
 tags: blog
 ---
 
-如果能看到这里，说明你是一个帅哥或者美女。
+**如果能看到这里，说明你是一个帅哥或者美女。**
 
 ----------
 
 
 
-> 我为什么要弄独立博客
+# 我为什么要弄独立博客
 
 
 
@@ -19,7 +19,7 @@ tags: blog
 
 ----------
 
-> 博客怎么搭建的
+# 博客怎么搭建的
 
 
 网上有很多相关的教程，我就不班门弄斧说具体步骤了。捣鼓了两个晚上，终于能在实验室和寝室不同的机器上更新博客了。
@@ -42,22 +42,23 @@ Markdown，我也刚学这个玩意儿，写博客必备，用的是[cmd在线�
 
 ----------
 
-> 遇到的问题
+# 遇到的问题
 
 为了在寝室也能更新博客，于是在笔记本上也安装了Hexo环境，一切准备就绪，SSH各种连接无误，无奈每次部署都显示
-`Error:Permission denied (publickey).
-fatal:Could not read from remote repository.`
+`Error:Permission denied (publickey).`
+`fatal:Could not read from remote repository.`
+
 好吧，我重新添加了一万次SSH key，依然无果，哔了动物园了。
 灵机一动，想到一法，每次部署前手动打开一次SSH客户端：
 
-    $ eval $(ssh-agent -s)
-    $ ssh-add ~/.ssh/id_rsa
+   `$ eval $(ssh-agent -s)`  
+   `$ ssh-add ~/.ssh/id_rsa`  
 
 至此解决困扰一天的问题。
 
 ----------
 
-> 我会怎么用博客
+# 我会怎么用博客
 
 花了钱和精力，当然得用下去，我会分享一下有价值的资料，同时自己最好也能够总结一些技术性的文章，写写随笔什么的~
 
