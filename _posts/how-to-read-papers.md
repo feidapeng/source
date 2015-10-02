@@ -1,5 +1,5 @@
 title: 怎么阅读学术论文
-date: 2015-09-20 14:52:16
+date: 2015-09-21 14:52:16
 categories: research
 tags: 论文
 ---
